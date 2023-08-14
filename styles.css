@@ -1,0 +1,230 @@
+body, html
+{
+    font-family: ubuntu;
+    margin: 0;
+    width: 100vw;
+}
+
+*
+{
+    margin: 0;
+}
+
+/* header part:  */
+
+.logo-image
+{
+    width: 7rem;
+}
+
+.header
+{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+
+.header-links
+{
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* introduction part:  */
+
+.introduction
+{
+    padding: 2rem;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.welcome-heading
+{
+    font-size: 36px;
+}
+
+.welcome-message
+{
+    color: #bbbbbb;
+}
+
+.intro-text
+{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    gap: 2rem;
+}
+
+.intro-image
+{
+    width: 30rem;
+    height: auto;
+}
+
+.intro-button
+{
+    width: 6rem;
+    height: 2rem;
+
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.intro-button-link
+{
+    color: white;
+    text-decoration: none;
+}
+
+.intro-button:active
+{
+    background-color: #196cf1;
+}
+
+.intro-button:hover
+{
+    cursor: pointer;
+}
+
+/* claim-to-fame part:  */
+
+.claim-to-fame
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.claim-to-fame-heading
+{
+    padding: 2rem 0rem;
+}
+
+.cards-of-fame
+{
+    gap: 2rem;
+    display: flex;
+}
+
+.card-of-fame img
+{
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
+.cards-of-fame
+{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-of-fame
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-of-fame-text
+{
+    max-width: 200px;
+    text-align: center;
+}
+
+.card-of-fame-text p
+{
+    word-wrap: break-word;
+}
+
+/* quote part:  */
+
+.quote-box
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    background-color: rgb(235, 235, 235);
+    width: 100vw;
+}
+
+.quote
+{
+    font-style: italic;
+    font-size: 2rem;
+    width: 75%;
+
+    padding: 5% 0%;
+}
+
+.author
+{
+    padding-bottom: 5%;
+}
+
+/* details part:  */
+
+.details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-card
+{
+    width: 60vw;
+    height: 25vh;
+
+    border-radius: 10px;
+
+    background-color: #196cf1;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+/* footer part:  */
+
+.footer
+{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+    color: white;
+}
+
